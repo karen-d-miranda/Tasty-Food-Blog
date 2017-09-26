@@ -1,0 +1,137 @@
+/*-------------------------------------
+   ========= Basic Styling =========
+  -------------------------------------*/
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Muli', sans-serif;
+	line-height: 1.6;
+	color: #000;
+	margin: 0;
+}
+
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+p {
+	font-size: .95em;
+	margin-bottom: 1.8em;
+}
+
+h2,
+h3,
+a {
+	color: #093a58;
+}
+
+h2,
+h3 {
+	margin-top: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+
+/*-------------------------------------
+  =========Main Header Styling=========
+  -------------------------------------*/
+  
+.main-header {
+	background-image: url("images/pexels-photo-132694.jpeg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	position: center;
+}
+
+.main-header-flex,
+.main-nav {
+	display: flex;
+	flex-direction: column;
+}
+
+.main-nav {
+	flex: 1;
+	margin-top: auto;
+}
+
+.name {
+	font-family: 'Roboto Slab', serif;
+	font-size: 2em;
+	text-transform: uppercase;
+	margin-bottom: auto;
+}
+
+.name a,
+.main-nav li {
+	background-color: rgba(0, 0, 0, 0.4);
+	color: #FFF;
+}
+
+.name a:hover,
+.main-nav li:hover {
+	background-color: rgba(0, 0, 0, 0.55);
+	color: #ddd;
+}
+
+.name a,
+.main-nav a {
+	text-align: center;
+	display: block;
+	padding: 10px 0;
+	text-transform: uppercase;
+}
+
+.main-nav a {
+	font-family: 'Noticia Text', serif;
+}
+
+/*-------------------------------------
+     =========Main Styling=========
+  -------------------------------------*/
+  
+.wrapper {
+	max-width: 90%;
+	margin: 0 auto;
+}
+
+.feature-flex,
+.meeting-us,
+.one-third {
+	display: flex;
+	justify-content: space-between;
+}
+
+.primary,
+.secondary,
+.tertiary {
+	flex: 1 1 0;
+}
+
+
+.block-link {
+	flex-direction: column;
+	text-align: center;
+}
+
+.meeting-us {
+	display: flex;
+	flex-direction: row;
+}
+
+.me img {
+	border-radius: 50%;
+	max-height: 200px;
+}
+
